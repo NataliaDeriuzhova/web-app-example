@@ -1,4 +1,4 @@
-package letscode.sarafan.damain;
+package letscode.sarafan.domain;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonView;

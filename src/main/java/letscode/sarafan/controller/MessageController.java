@@ -1,8 +1,8 @@
 package letscode.sarafan.controller;
 
 import com.fasterxml.jackson.annotation.JsonView;
-import letscode.sarafan.damain.Message;
-import letscode.sarafan.damain.Views;
+import letscode.sarafan.domain.Message;
+import letscode.sarafan.domain.Views;
 import letscode.sarafan.repo.MessageRepo;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
