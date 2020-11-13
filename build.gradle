@@ -30,6 +30,8 @@ dependencies {
 	implementation 'org.postgresql:postgresql'
 	implementation 'org.projectlombok:lombok'
 	implementation 'javax.xml.bind:jaxb-api'
+	implementation 'org.springframework.boot:spring-boot-starter-websocket'
+	implementation 'org.webjars:sockjs-client:1.0.2'
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
